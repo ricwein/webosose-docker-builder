@@ -1,0 +1,3 @@
+[submodule "webos"]
+	path = webos
+	url = https://github.com/webosose/build-webos.git

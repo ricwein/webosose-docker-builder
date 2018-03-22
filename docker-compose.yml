@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  webos-builder:
+    build: .
+    volumes:
+     - ./build:/home/builder/webos/BUILD:rw,cached
